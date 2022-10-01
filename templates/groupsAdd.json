@@ -1,0 +1,10 @@
+{
+    "description": "Hello ropci, this is fine.",
+    "displayName": "This is fine",
+    "groupTypes": [
+        "Unified"
+    ],
+    "mailEnabled": true,
+    "mailNickname": "thisisfine",
+    "securityEnabled": true
+}

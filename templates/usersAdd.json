@@ -1,0 +1,12 @@
+{
+    "accountEnabled": false,
+    "displayName": "Ropci",
+    "mailNickname": "svc_ropci",
+    "userPrincipalName": "svc_ropci@example.org",
+    "jobTitle": "Mr. Backdoor",
+    "passwordProfile": {
+        "forceChangePasswordNextSignIn": false,
+        "password": "Thisisfine1234!"
+    },
+    "passwordPolicies": "DisablePasswordExpiration"
+}

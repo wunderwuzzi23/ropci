@@ -1,0 +1,23 @@
+tenant: %%TENANT%%
+username: %%USERNAME%%
+password: %%PASSWORD%%
+
+clientid: d3590ed6-52b3-4102-aeff-aad2292ab01c  #Microsoft Office
+
+#clientid: 00b41c95-dab0-4487-9791-b9d2c32c80f2 # Office 365 Management
+#clientid: 1fec8e78-bce4-4aaf-ab1b-5451cc387264 # Microsoft Teams
+#clientid: 57336123-6e14-4acc-8dcf-287b6088aa28 # Microsoft Whiteboard Client - Mail.Send (not allowed: groups/users add, members-add)
+#clientid: 04b07795-8ddb-461a-bbee-02f9e1bf7b46 # Azure CLI
+clientsecret:
+
+scope: 
+  - openid 
+  - offline_access
+#  - https://management.core.windows.net//user_impersonation
+#  - https://database.windows.net//.default
+
+
+graphuri: https://graph.microsoft.com/beta
+azureuri: https://management.azure.com
+
+useragent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54

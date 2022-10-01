@@ -1,0 +1,28 @@
+{
+  "message": {
+    "subject": "This is fine!",
+    "body": {
+      "contentType": "Html",
+      "content": "<h2>Hello</h2>This is fine. Click this link: https://..."
+    },
+    "toRecipients": [
+      {
+        "emailAddress": {
+          "address": "joe@example.org"
+        }
+      }
+    ],
+    "attachments": [
+      {
+        "@odata.type": "#microsoft.graph.fileAttachment",
+        "name": "attachment.txt",
+        "contentType": "text/plain",
+        "contentBytes": "VGhpcyBpcyBmaW5lISA6KQo="
+      }
+    ]
+  },
+  "saveToSentItems": "false",
+}
+
+
+

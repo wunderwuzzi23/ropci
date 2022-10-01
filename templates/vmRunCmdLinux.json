@@ -1,0 +1,7 @@
+{
+	"commandId": "RunShellScript",
+	"script": [
+		"echo 'This is fine!' >> /root/hi.txt",
+		"cat /etc/passwd >> /tmp/thisisfine.txt"
+	]
+}

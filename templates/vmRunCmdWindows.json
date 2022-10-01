@@ -1,0 +1,6 @@
+{
+	"commandId": "RunPowerShellScript",
+	"script": [
+		"mkdir c:\Thisisfine.txt"
+	]
+}
