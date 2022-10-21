@@ -14,9 +14,6 @@ It is a deprecated auth flow that requires a high degree of trust between partic
 
 Because it supports only single-factor username/password authentication, ROPC is an avenue to exploit MFA misconfigurations (such as lack of MFA enforcement). 
 
-Even though it is a legacy authentication flow, it is not blocked by the AAD's "Block legacy authentication" Conditional Access Policy. 
-
-
 # Building ropci 
 
 Grab a copy of the source and `go build`:
