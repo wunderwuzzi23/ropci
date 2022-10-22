@@ -328,7 +328,6 @@ Here is a quick recap and testing and mitigation recommendations:
 * Security defaults might not adequately protect user accounts. 
 In some of my testing I switched IP address multiple times to various countries (impossible travel) and ROPC authentication continued to succeed. It’s best to enforce MFA for all accounts, rather then depending on security defaults to make the right decisions.
 * Hybrid and federated MFA enforcement can leave "native" AAD accounts vulnerable.
-* If you block legacy auth via policy, make sure to include "mobile apps and desktop clients" (the default template currently doesn't include it)
 * Some scenarios might remain vulnerable to single factor authentication. **The exposure should be known, and a conscious decision (risk acceptance)**
 * Know your weaknesses, monitor exposure, and continue locking down settings.
 * **Test and validate your configurations from an offensive security point of view!**
