@@ -14,9 +14,13 @@ It is a deprecated auth flow that requires a high degree of trust between partic
 
 Because it supports only single-factor username/password authentication, ROPC is an avenue to exploit MFA misconfigurations (such as lack of MFA enforcement). 
 
+# Getting ropci
+
+Download a pre-built release for your platform of choice [here](https://github.com/wunderwuzzi23/ropci/releases/tag/v0.1).
+
 # Building ropci 
 
-Grab a copy of the source and `go build`:
+Alternatively, you can build it yourself. Grab a copy of the source and `go build`:
 
 ```
 git clone https://github.com/wunderwuzzi23/ropci
