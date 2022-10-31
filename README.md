@@ -8,7 +8,7 @@ Sounds easy, but testing results show that real world setups are convoluted and 
 
 # What is ROPC?
 
-Resource Onwer Password Credentials (ROPC) allows to authenticate to OAuth2 apps via username and password. 
+Resource Owner Password Credentials (ROPC) allows to authenticate to OAuth2 apps via username and password. 
 
 It is a deprecated auth flow that requires a high degree of trust between participants. Many built-in Microsoft Azure OAuth apps support ROPC and can be leveraged by attackers. 
 
